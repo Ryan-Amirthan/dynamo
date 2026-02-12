@@ -1,9 +1,8 @@
 ---
 # SPDX-FileCopyrightText: Copyright (c) 2025-2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
 # SPDX-License-Identifier: Apache-2.0
+title: Planner
 ---
-
-# Planner
 
 The Planner monitors system performance and automatically scales prefill/decode workers to meet latency SLAs. It runs as a component inside the Dynamo inference graph on Kubernetes.
 
